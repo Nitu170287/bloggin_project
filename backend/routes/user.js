@@ -1,7 +1,6 @@
+const express = require("express");
+const app = express();
 
-const express = require('express')
-const app = express()
+app.post("/register", registerUser);
 
-app.post("/register", registerUser)
-
-module.exports = app
+module.exports = app;
